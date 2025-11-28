@@ -22,6 +22,7 @@ class Phone(Item):
 
 item1 = Phone("Phone", 100, 5, 1)
 print(item1.broken_phones)
+print(item1.quantity)
 #print(item1.calculate_total_price())
 print(Item.all)
 print(Phone.phone)
