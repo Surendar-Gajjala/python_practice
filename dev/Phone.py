@@ -8,6 +8,7 @@ class Phone(Item):
         super().__init__(name, price, quantity)
         
         #Run  validation to the received arguments
+        #Run  validation to the received arguments
         assert price >= 0, f"Price {price} is not greater than or equal to zero!"
         assert quantity >=0, f"Quantity {quantity} is not greater than or equal to zero!"
         
